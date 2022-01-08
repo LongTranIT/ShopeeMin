@@ -1,0 +1,143 @@
+table, th, td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+  }
+table{
+    width: 100%;
+}  
+td{
+    font-size: 1.6rem;
+    padding: 8px;
+}
+th{
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    background-color: antiquewhite;
+    padding: 8px;
+}
+
+.header-title{
+    color: white;
+    margin: auto;
+    font-size: 3rem;
+}
+
+.admin-right{
+    padding: 10px;
+}
+.admin-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+    padding: 8px;
+}
+
+
+.admin__add-btn{
+    float: right;
+    margin: 16px;
+}
+.admin-item__ma{
+    color: var(--primary-color);
+    /* margin-left: 16px; */
+    /* padding: 8px 16px; */
+    /* border: 1px solid var(--primary-color); */
+}
+
+.admin-item__input{
+    width: 40%;
+    padding: 4px;
+    border: 1px solid var(--primary-color);
+    outline: none;
+    line-height: 8px;
+}
+.admin-item__product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.admin-item__tenloaiHang{
+    max-width:200px;
+    white-space: pre-line; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+     display: -webkit-box;
+     margin-bottom: 12px;
+}
+
+.admin-item__img{
+    width: 50px;
+    background-size: contain;
+    display: block;
+}
+
+.product-block{
+    margin: auto;
+    width: 200px;
+    padding: 16px 0;
+}
+
+.product-img{
+    width: 146px;
+    margin:16px 100px 16px 0;
+}
+
+.admin-item__payment-price{
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.combo-box{
+    border: 1px solid var(--primary-color);
+    outline: none;
+}
+
+.admin-item_user-title{
+    color: var(--primary-color);
+    text-align: center;
+    margin: 0 8px 8px 0;
+}
+
+.container{
+    min-height: 400px;
+}
+
+.admin__update-btn{
+    min-width: 80px ;
+}
+
+.admin-item__status{
+    display: flex;
+    flex-direction: column;
+}
+
+.admin_item__sohoadon{
+    margin: 0;
+}
+
+.admin-item__product{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item__note{
+    line-height: 1.8;
+    color: red;
+}
+
+.admin-item__text-area{
+    line-height: 1.2;
+}

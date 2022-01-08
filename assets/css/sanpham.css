@@ -1,0 +1,137 @@
+.product{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.product__info{
+    padding-left: 32px;
+}
+
+.product__img img{
+    width: 100%;
+    background-size: contain;
+}
+
+.product__info-name{
+    font-size: 2.2rem;
+    padding: 8px 0px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.product__info-header{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 8px 0;
+}
+
+.product__info-ratings{
+    color: var(--primary-color);
+}
+
+.product__info-n-rating,
+.product__info-n-sold{
+    padding-left: 8px;
+    border-left: 1px solid #ccc;
+}
+
+.product__info-price{
+    padding:15px 20px;
+    background-color: rgba(204, 204, 204, 0.233);
+    color: red;
+    font-size: 2rem;
+    margin: 8px 0 16px 0;
+}
+
+.product__info-ship{
+    padding: 8px;
+    font-size: 1.4rem;
+}
+.locate-ship{
+    margin-left: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.product__info-desc{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    padding: 0 0 16px 8px;
+    font-style: italic;
+}
+
+.product__info-quantity{
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.product__info-quatity-text{
+    margin-right: 16px;
+}
+
+.product__info-quantity input{
+    width: 50px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid #999;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    outline: none;
+}
+
+.product__quantity-left{
+    width: 30px;
+    height: 32px;
+    font-size: 2rem;
+    background-color: white;
+    border: 1px solid #999;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    cursor: pointer;
+}
+
+.product__quantity-right{
+    width: 30px;
+    height: 32px;
+    font-size: 2rem;
+    background-color: white;
+    border: 1px solid #999;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+
+.product__quantity-available{
+     margin-left: 16px;
+}
+
+/* .product__info-buy-btn{
+    width: 180px;
+    height: 48px;
+    color: white;
+    background-color: rgb(208, 1, 27);
+    font-size: 2rem;
+    border: none;
+    margin-left: 48px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 300;
+}
+.product__info-buy-btn--disable{
+    width: 180px;
+    height: 48px;
+    color: black;
+    background-color: rgb(145, 138, 139);
+    font-size: 2rem;
+    border: none;
+    margin-left: 48px;
+    border-radius: 2px;
+    cursor: none;
+    font-weight: 300;
+} */
